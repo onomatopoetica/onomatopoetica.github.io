@@ -2,6 +2,10 @@ span, h1, h2, h4, h6, p {
     font-family: "Montserrat", sans-serif;
 }
 
+h5 {
+    color: #2f89c4;
+}
+
 html, body {
     height: 100%;
     max-width: 2000px;
