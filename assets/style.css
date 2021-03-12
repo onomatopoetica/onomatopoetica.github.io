@@ -338,8 +338,33 @@ a.back-to-top {
     }
 }
 
+/* Small screens */
+@media (min-width: 376px) and (max-width: 699px) {
+    .jumbotron {
+        max-height: 150px;
+        max-width: auto;
+    }
+    
+    /* Typewriter effect */
+    .typewriter p {
+        font-size: .90rem;
+    }
+        
+    #projects li {
+        width:100%;
+    }
+
+    /* Overlay */
+    span.text {
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        top: 10%;
+    } 
+}
+
 /* Smaller screens */
-@media (max-width: 699px) {
+@media (max-width: 375px) {
     .jumbotron {
         max-height: 150px;
         max-width: auto;
