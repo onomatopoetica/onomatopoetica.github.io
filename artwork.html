@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- w3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/792cbaa3d1.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/png" sizes="32x32">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./assets/artwork.css" />
+    <title>Jennifer Bates Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Back to top -->
+
+    <a href="#" id="back-to-top" class="back-to-top" style="text-decoration: none; display: inline;">Top</a>
+
+    <!-- Navbar -->
+
+    <div class="content">
+        <div class="indexNav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" style="color: black;">
+
+                <!-- Container for navbar brand -->
+
+                <div class="container-fluid">
+                    <span id="highlight"><a class="navbar-brand">Hi. It's nice to meet you!
+                        </a></span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="aboutMeNav" class="nav-link" href="index.html">Portfolio</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a id="portfolioNav" class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a id="contactNav" class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contactNav" class="nav-link" href="artwork.html">Artwork</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header">
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container">
+                    <br>
+                    <br>
+                    <div class="typewriter">
+                        <p class="lead subTitle">Amateur Photographer + Painter</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Creative side summary -->
+
+        <div class="freelanceFolio">
+            <div class="container-fluid">
+                <span id="highlightheart">Artwork</span>
+                <br>
+                <!-- <div class="freelanceSummary text-justify mt-5"> -->
+                <p class="summary text-justify mt-5">As for my creative side, I am an amateur photographer
+                    and painter.
+                    A
+                    couple of years ago I started creating
+                    art to memorialize and celebrate pets. It began when a friend on Instagram reached out to me for
+                    ideas
+                    on how she
+                    could memorialize a family friend's pup that had just passed. The photos I was given of the
+                    sweet
+                    pup
+                    were low resolution so
+                    I decided to overlay a watercolor of her over a photo background of butterflies and sunflowers.
+                    The
+                    family loved the piece so much
+                    they framed it! Click the 'See Pup!' button to see the
+                    final art piece.</p><br>
+
+                <!-- Watercolor pup modal -->
+
+                <div class="w3-container text-center">
+                    <button onclick="document.getElementById('popupPup').style.display='block'" class="btn"
+                        style="box-shadow: 1px 1px #137bc0;" type="button">See
+                        Pup!</button>
+                    <div id="popupPup" class="w3-modal">
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <div class="pupContainer">
+                                <span onclick="document.getElementById('popupPup').style.display='none'"
+                                    class="btn w3-xxlarge w3-display-topleft">&times;</span>
+                                <img class="watercolorPup" src="./assets/artwork/wWaterColor.png"
+                                    alt="watercolor pup sunflower and butterflies" width="100%" height="100%" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <p class="summary">Since that first art project, I've been asked to do more than 50 pieces for
+                    everything from pet
+                    memorials, to pet
+                    birthdays, to celebrating achievements in training certifications. Click the 'Freelance Work'
+                    panel
+                    below to
+                    see my work. Can you guess which one is my own pup? </p>
+                <!-- </div> -->
+            </div>
+
+            <!-- Freelance accordion -->
+
+            <button class="accordion pb-3 pr-1" style="font-size: 1.25rem; box-shadow: 1px 1px #137bc0;"
+                type="button">Freelance Work</button>
+            <div class="panel">
+                <div class="grid-container" style="max-width: 100%; text-align: center;">
+                    <div class="item1">
+                        <img src="./assets/artwork/Butterflies.png" alt="butterflies" />
+                    </div>
+                    <div class="item2">
+                        <img src="./assets/artwork/Zeus2.png" alt="doberman and butterfly" />
+                    </div>
+                    <div class="item3">
+                        <img src="./assets/artwork/Luxe2.png" alt="doberman and tulips" />
+                    </div>
+                    <div class="item4">
+                        <img src="./assets/artwork/Unicorn.png" alt="doberman with rainbow unicorn horn" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <!-- Footer -->
+
+        <footer class="container-fluid text-center">
+            <h3 class="footer">Follow Me!</h3><br>
+            <img src="./assets/pages/monarch.png" height="100" style="opacity: 90%;"><br>
+            <div class="social mt-2"><br>
+                <a id="socialGit" href="https://github.com/onomatopoetica" target="_blank"><i
+                        class="fab fa-github fa-2x w3-text-purple mx-3 w3-hover-opacity"></i></a>
+                <a id="socialLink" href="https://www.linkedin.com/in/jenbates/" target="_blank"><i
+                        class="fa fa-linkedin fa-2x w3-text-indigo mx-3 w3-hover-opacity"></i></a>
+                <a id="socialTwit" href="https://twitter.com/JenDotB" target="_blank"><i
+                        class="fab fa-twitter fa-2x w3-text-blue mx-3 w3-hover-opacity"></i></a>
+                <a id="socialUnsplash" href="https://unsplash.com/@jendotb" target="_blank"><i
+                        class="fab fa-unsplash fa-2x w3-text-black mx-3 w3-hover-opacity"></i></a>
+            </div>
+            <br>
+            <div class="madeWithLove" style="font-size: .85rem;">Created with all the <i class="fa fa-heart pulse"
+                    style="color: rgb(184, 5, 112);"></i> by <a class="onomatopoetica"
+                    href="https://github.com/onomatopoetica" target="_blank">Onomatopoetica</a> in 2021!
+            </div>
+            <!-- End footer -->
+        </footer>
+
+        <!-- End page content -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
