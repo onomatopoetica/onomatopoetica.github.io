@@ -4,6 +4,8 @@ span, h1, h2, h4, h6, p {
 
 h5 {
     color: #2f89c4;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 html, body {
@@ -303,12 +305,12 @@ a.back-to-top {
         font-size: 18px;
         color: #FFFFFF;
         text-align: center;
-        top: 30%;
+        top: 25%;
     }
 }
 
 /* Medium-smaller screens */
-@media (min-width: 800px) and (max-width: 899px) {
+@media (min-width: 700px) and (max-width: 899px) {
     .jumbotron {
         max-height: 300px;
         max-width: auto;
@@ -332,12 +334,12 @@ a.back-to-top {
         font-size: 14px;
         color: #FFFFFF;
         text-align: center;
-        top: 20%;
+        top: 15%;
     }
 }
 
 /* Smaller screens */
-@media (max-width: 799px) {
+@media (max-width: 699px) {
     .jumbotron {
         max-height: 150px;
         max-width: auto;
@@ -354,9 +356,9 @@ a.back-to-top {
 
     /* Overlay */
     span.text {
-        font-size: 16px;
+        font-size: 14px;
         color: #FFFFFF;
         text-align: center;
-        top: 30%;
+        top: 10%;
     } 
 }
