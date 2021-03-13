@@ -189,6 +189,7 @@ a.onomatopoetica:hover   {
 .btn {
     background-color: #2f89c4;
     color: #FFFFFF;
+    font-size: 17px;
 }
 
 .btn:hover {
@@ -242,8 +243,8 @@ a.back-to-top {
     color: #2f89c4;
 }
   
-/* Larger screens */
-@media (max-width: 2000px) and (min-width: 1500px) {
+/* Large screens */
+@media (max-width: 2000px) and (min-width: 1535px) {
     p.lead.subTitle {
         margin-top: 150px;
     }
@@ -257,12 +258,19 @@ a.back-to-top {
         font-size: 20px;
         color: #FFFFFF;
         text-align: center;
-        top: 20%;
+        top: 24%;
+    }
+
+    /* All buttons */
+    .btn {
+        background-color: #2f89c4;
+        color: #FFFFFF;
+        font-size: 20px;
     }
 }
 
 /* Large-smaller screens */
-@media (max-width: 1499px) and (min-width: 1300px) {
+@media (max-width: 1534px) and (min-width: 1266px) {
     p.lead.subTitle {
         margin-top: 150px;
     }
@@ -273,15 +281,22 @@ a.back-to-top {
 
     /* Overlay */
     span.text {
-        font-size: 18px;
+        font-size: 17px;
         color: #FFFFFF;
         text-align: center;
         top: 20%;
     }
+
+    /* All buttons */
+    .btn {
+        background-color: #2f89c4;
+        color: #FFFFFF;
+        font-size: 17px;
+    }
 }
 
 /* Medium-larger screens */
-@media (min-width: 900px) and (max-width: 1299px) {
+@media (min-width: 930px) and (max-width: 1265px) {
     .jumbotron {
         max-height: 300px;
         max-width: auto;
@@ -309,8 +324,8 @@ a.back-to-top {
     }
 }
 
-/* Medium-smaller screens */
-@media (min-width: 700px) and (max-width: 899px) {
+/* Medium screens */
+@media (min-width: 750px) and (max-width: 929px) {
     .jumbotron {
         max-height: 300px;
         max-width: auto;
@@ -326,20 +341,63 @@ a.back-to-top {
     }
     
     #projects li {
-        width:50%;
+        width: 50%;
     }
 
     /* Overlay */
     span.text {
-        font-size: 14px;
+        font-size: 16px;
         color: #FFFFFF;
         text-align: center;
-        top: 15%;
+        top: 10%;
+    }
+
+    /* Buttons on project overlay */
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
     }
 }
 
-/* Small screens */
-@media (min-width: 376px) and (max-width: 699px) {
+/* Medium-small screens */
+@media (min-width: 501px) and (max-width: 749px) {
+    .jumbotron {
+        max-height: 300px;
+        max-width: auto;
+    }
+
+    p.lead.subTitle {
+        margin-top: 100px;
+    }
+
+    /* Typewriter effect */
+    .typewriter p {
+        font-size: 1.75rem;        
+    }
+    
+    #projects li {
+        width: 100%;
+    }
+
+    /* Overlay */
+    span.text {
+        font-size: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        top: 30%;
+    }
+
+    /* Buttons on project overlay */
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+}
+
+/* Medium-Smaller screens */
+@media (min-width: 430px) and (max-width: 500px) {
     .jumbotron {
         max-height: 150px;
         max-width: auto;
@@ -356,14 +414,53 @@ a.back-to-top {
 
     /* Overlay */
     span.text {
-        font-size: 16px;
+        font-size: 14px;
         color: #FFFFFF;
         text-align: center;
         top: 20%;
     } 
+
+    /* Buttons on project overlay */
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
 }
 
-/* Smaller screens */
+/* Small screens */
+@media (min-width: 376px) and (max-width: 429px) {
+    .jumbotron {
+        max-height: 150px;
+        max-width: auto;
+    }
+    
+    /* Typewriter effect */
+    .typewriter p {
+        font-size: .90rem;
+    }
+        
+    #projects li {
+        width:100%;
+    }
+
+    /* Overlay */
+    span.text {
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        top: 20%;
+    } 
+
+    /* Buttons on project overlay */
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+}
+
+/* smallest screens */
 @media (max-width: 375px) {
     .jumbotron {
         max-height: 150px;
@@ -384,6 +481,13 @@ a.back-to-top {
         font-size: 14px;
         color: #FFFFFF;
         text-align: center;
-        top: 10%;
+        top: 15%;
     } 
+
+    /* Buttons on project overlay */
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
 }
