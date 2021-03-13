@@ -325,7 +325,7 @@ a.back-to-top {
 }
 
 /* Medium screens */
-@media (min-width: 750px) and (max-width: 929px) {
+@media (min-width: 720px) and (max-width: 929px) {
     .jumbotron {
         max-height: 300px;
         max-width: auto;
@@ -361,7 +361,7 @@ a.back-to-top {
 }
 
 /* Medium-small screens */
-@media (min-width: 501px) and (max-width: 749px) {
+@media (min-width: 501px) and (max-width: 719px) {
     .jumbotron {
         max-height: 300px;
         max-width: auto;
@@ -397,7 +397,7 @@ a.back-to-top {
 }
 
 /* Medium-Smaller screens */
-@media (min-width: 430px) and (max-width: 500px) {
+@media (min-width: 436px) and (max-width: 500px) {
     .jumbotron {
         max-height: 150px;
         max-width: auto;
@@ -414,7 +414,7 @@ a.back-to-top {
 
     /* Overlay */
     span.text {
-        font-size: 15px;
+        font-size: 16px;
         color: #FFFFFF;
         text-align: center;
         top: 20%;
@@ -424,12 +424,12 @@ a.back-to-top {
     .btn {
         display: flex;
         justify-content: space-between;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
 /* Small screens */
-@media (min-width: 376px) and (max-width: 429px) {
+@media (min-width: 376px) and (max-width: 435px) {
     .jumbotron {
         max-height: 150px;
         max-width: auto;
@@ -446,17 +446,17 @@ a.back-to-top {
 
     /* Overlay */
     span.text {
-        font-size: 15px;
+        font-size: 16px;
         color: #FFFFFF;
         text-align: center;
-        top: 23%;
+        top: 15%;
     } 
 
     /* Buttons on project overlay */
     .btn {
         display: flex;
         justify-content: space-between;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
