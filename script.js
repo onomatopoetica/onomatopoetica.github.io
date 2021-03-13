@@ -26,7 +26,7 @@ link.addEventListener('click', function (e) {
     var runAnimation = setInterval(animateScroll, 16);
 });
 
-// Accorion animation
+// Accordion animation
 var acc = document.getElementsByClassName("accordion");
 var i;
 

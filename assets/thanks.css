@@ -1,0 +1,56 @@
+h5 {
+    color: #2f89c4;
+}
+
+.btn {
+    background-color: #2f89c4;
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #4fa4dd;
+    color: #FFFFFF;
+}
+
+.thankyou {
+    text-align: center;
+}
+
+.butterfly {
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    text-align: center;
+}
+
+.butterfly2 {
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    text-align: center;
+}
+
+/* Small screens */
+@media (min-width: 365px) and (max-width: 600px) {
+    .butterfly {
+        width: 400px;
+        margin-top: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .butterfly2 {
+        width: 400px;
+        /* margin-top: 150px; */
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        text-align: center;
+    }
+}

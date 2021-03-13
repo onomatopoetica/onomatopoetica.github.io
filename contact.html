@@ -13,11 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/792cbaa3d1.js" crossorigin="anonymous"></script>
+    <!-- Recaptcha API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Favicon -->
     <link rel="icon" href="./favicon.ico?v=2" type="image/png" sizes="32x32">
     <!-- Local CSS -->
     <link rel="stylesheet" href="./assets/contact.css" />
     <title>Jennifer Bates Portfolio</title>
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            console.log("grecaptcha is ready!");
+        };
+    </script>
 </head>
 
 <body>
@@ -205,7 +212,11 @@
                             <button class="btn" type="submit" style="box-shadow: 1px 1px #137bc0;"
                                 value="send">Submit</button>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LdFaX0aAAAAAGLnTkV5uD1esEIbiVnhJao2-RO4"></div>
                     </form>
+                    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async
+                        defer>
+                        </script>
                 </div>
             </div>
         </div>
