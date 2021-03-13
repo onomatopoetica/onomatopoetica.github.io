@@ -1,3 +1,13 @@
+// reCaptcha prompt for user to check before submitting form
+$("form").submit(function (event) {
+
+    var recaptcha = $("#g-recaptcha-response").val();
+    if (recaptcha === "") {
+        event.preventDefault();
+        alert("Please confirm you're not a robot.");
+    }
+});
+
 // Back To Top animation
 var link = document.getElementById("back-to-top");
 var amountScrolled = 250;
