@@ -1,5 +1,11 @@
-h5 {
+.container {
+    align-items: center;
+}
+
+p {
     color: #2f89c4;
+    text-align: center;
+    font-size: 17px;
 }
 
 .btn {
@@ -36,9 +42,25 @@ h5 {
 
 /* Small screens */
 @media (min-width: 365px) and (max-width: 600px) {
+    .container {
+        align-items: center;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .btn {
+        background-color: #2f89c4;
+        color: #FFFFFF;
+        font-size: 14px;
+        text-align: center;
+    }    
+    
     .butterfly {
-        width: 400px;
-        margin-top: 150px;
+        width: 365px;
+        margin-top: 95px;
         margin-left: 0;
         margin-right: 0;
         height: auto;
@@ -46,8 +68,7 @@ h5 {
     }
 
     .butterfly2 {
-        width: 400px;
-        /* margin-top: 150px; */
+        width: 365px;
         margin-left: 0;
         margin-right: 0;
         height: auto;

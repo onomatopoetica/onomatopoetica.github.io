@@ -1,13 +1,4 @@
-// reCaptcha prompt for user to check before submitting form
-// $("form").submit(function (event) {
-
-//     var recaptcha = $("#g-recaptcha-response").val();
-//     if (recaptcha === "") {
-//         event.preventDefault();
-//         alert("Please confirm you're not a robot.");
-//     }
-// });
-
+// Function to remove disabled status of form button and reinstate button hover effects once reCaptcha is checked
 function recaptcha_callback() {
     $('#submit').removeAttr('disabled');
     $('#submit.btn').hover(function () {

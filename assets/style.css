@@ -197,10 +197,6 @@ a.onomatopoetica:hover   {
     color: #FFFFFF;
 }
 
-/* .skills, .tools {
-    background-color: #c799c7;   
-} */
-
 /* Back to top */
 .back-to-top, .back-to-top:focus, .back-to-top:visited {
     background-color: #2f89c4;
@@ -449,7 +445,7 @@ a.back-to-top {
         font-size: 16px;
         color: #FFFFFF;
         text-align: center;
-        top: 15%;
+        top: 16%;
     } 
 
     /* Buttons on project overlay */
@@ -481,7 +477,7 @@ a.back-to-top {
         font-size: 14px;
         color: #FFFFFF;
         text-align: center;
-        top: 20%;
+        top: 17%;
     } 
 
     /* Buttons on project overlay */
