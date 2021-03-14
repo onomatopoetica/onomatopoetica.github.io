@@ -93,15 +93,15 @@ a.onomatopoetica:hover   {
 }
 
 /* All buttons */
-.btn {
+/* .btn {
     background-color: #2f89c4;
     color: #FFFFFF;
-}
+} */
 
-.btn:hover {
+/* .btn:hover::after {
     background-color: #4fa4dd;
     color: #FFFFFF;
-}
+} */
 
 .jen {
     color: #469ad2;
