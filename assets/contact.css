@@ -98,10 +98,20 @@ a.onomatopoetica:hover   {
     color: #FFFFFF;
 } */
 
-/* .btn:hover::after {
+/* .btn:hover {
     background-color: #4fa4dd;
     color: #FFFFFF;
 } */
+
+#resume {
+    background-color: #2f89c4;
+    color: #FFFFFF;
+}
+
+#resume:hover {
+    background-color: #4fa4dd;
+    color: #FFFFFF;
+}
 
 .jen {
     color: #469ad2;

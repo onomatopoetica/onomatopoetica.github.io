@@ -10,6 +10,10 @@
 
 function recaptcha_callback() {
     $('#submit').removeAttr('disabled');
+    $('.btn').hover(function () {
+        $(this).css("background-color", "#4fa4dd");
+        $(this).css("color", "#FFFFFF");
+    });
 };
 
 // Back To Top animation
