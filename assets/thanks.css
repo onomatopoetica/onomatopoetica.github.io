@@ -20,7 +20,7 @@ p {
     color: #FFFFFF;
 }
 
-.thankyou {
+.thankyou, .message {
     text-align: center;
 }
 
